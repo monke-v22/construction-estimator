@@ -1,0 +1,43 @@
+company:
+  name: "EstimatePRO"
+  tagline: "Professional Construction & Fit-Out Estimation"
+  address_line1: "King Fahd Road"
+  address_line2: "Riyadh, Kingdom of Saudi Arabia"
+  phone: "+966 XX XXX XXXX"
+  email: "estimations@estimatepro.com"
+  website: "www.estimatepro.com"
+  logo_path: "templates/logo.png"
+
+branding:
+  primary_color: "#1A3C5E"
+  accent_color: "#C8A951"
+  font_family: "Inter"
+
+commercial:
+  primary_currency: "SAR"
+  secondary_currency: "AED"
+  sar_to_aed_rate: 1.02
+  primary_region: "KSA"
+  secondary_region: "UAE"
+  vat_percentage: 15.0        # KSA VAT
+  uae_vat_percentage: 5.0     # UAE VAT
+  payment_terms: |
+    - 30% upon contract signing
+    - 40% upon reaching 50% project completion
+    - 30% upon final handover and sign-off
+  validity_days: 30
+
+legal:
+  standard_exclusions: |
+    - Structural works unless explicitly stated in scope
+    - Permits, NOCs, and authority approvals (MOMRA, municipality, civil defense)
+    - Furniture and loose items unless listed in FF&E schedule
+    - IT infrastructure, structured cabling, and AV systems
+    - Landscape and external works unless scoped
+    - Any works not explicitly mentioned in this proposal
+  standard_assumptions: |
+    - All works to be carried out during normal working hours (7am–5pm, Sat–Thu)
+    - Site access to be provided by client at all times
+    - Existing services to be in working order prior to commencement
+    - Client to appoint a single point of contact for approvals
+    - Rates include material, labour, and equipment unless stated otherwise

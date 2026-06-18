@@ -1,0 +1,111 @@
+{
+  "_note": "Total cost per m2 benchmarks by project type and grade. Used by Agent #5 for audit.",
+  "office_fitout": {
+    "standard": {
+      "sar_min": 800,
+      "sar_max": 1400,
+      "aed_min": 820,
+      "aed_max": 1430
+    },
+    "premium": {
+      "sar_min": 1400,
+      "sar_max": 2500,
+      "aed_min": 1430,
+      "aed_max": 2550
+    },
+    "luxury": {
+      "sar_min": 2500,
+      "sar_max": 5000,
+      "aed_min": 2550,
+      "aed_max": 5100
+    }
+  },
+  "retail": {
+    "standard": {
+      "sar_min": 1000,
+      "sar_max": 1800,
+      "aed_min": 1020,
+      "aed_max": 1840
+    },
+    "premium": {
+      "sar_min": 1800,
+      "sar_max": 3500,
+      "aed_min": 1840,
+      "aed_max": 3570
+    },
+    "luxury": {
+      "sar_min": 3500,
+      "sar_max": 7000,
+      "aed_min": 3570,
+      "aed_max": 7140
+    }
+  },
+  "hospitality": {
+    "standard": {
+      "sar_min": 1500,
+      "sar_max": 2800,
+      "aed_min": 1530,
+      "aed_max": 2860
+    },
+    "premium": {
+      "sar_min": 2800,
+      "sar_max": 5500,
+      "aed_min": 2860,
+      "aed_max": 5610
+    },
+    "luxury": {
+      "sar_min": 5500,
+      "sar_max": 12000,
+      "aed_min": 5610,
+      "aed_max": 12240
+    }
+  },
+  "residential": {
+    "standard": {
+      "sar_min": 600,
+      "sar_max": 1100,
+      "aed_min": 612,
+      "aed_max": 1122
+    },
+    "premium": {
+      "sar_min": 1100,
+      "sar_max": 2200,
+      "aed_min": 1122,
+      "aed_max": 2244
+    },
+    "luxury": {
+      "sar_min": 2200,
+      "sar_max": 5000,
+      "aed_min": 2244,
+      "aed_max": 5100
+    }
+  },
+  "mep_only": {
+    "standard": {
+      "sar_min": 300,
+      "sar_max": 600,
+      "aed_min": 306,
+      "aed_max": 612
+    },
+    "premium": {
+      "sar_min": 600,
+      "sar_max": 1100,
+      "aed_min": 612,
+      "aed_max": 1122
+    }
+  },
+  "finishing_only": {
+    "standard": {
+      "sar_min": 400,
+      "sar_max": 800,
+      "aed_min": 408,
+      "aed_max": 816
+    },
+    "premium": {
+      "sar_min": 800,
+      "sar_max": 1600,
+      "aed_min": 816,
+      "aed_max": 1632
+    }
+  }
+}

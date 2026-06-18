@@ -1,0 +1,144 @@
+{
+  "_note": "Units per day per crew. Used by Agent #4 for timeline estimation.",
+  "_regions": [
+    "KSA",
+    "UAE"
+  ],
+  "civil": {
+    "demolition_strip_out": {
+      "unit": "m2/day",
+      "rate": 80,
+      "crew_size": 4
+    },
+    "gypsum_partitions": {
+      "unit": "m2/day",
+      "rate": 25,
+      "crew_size": 2
+    },
+    "glass_partitions": {
+      "unit": "lm/day",
+      "rate": 8,
+      "crew_size": 3
+    },
+    "door_installation": {
+      "unit": "nr/day",
+      "rate": 4,
+      "crew_size": 2
+    },
+    "floor_screed": {
+      "unit": "m2/day",
+      "rate": 60,
+      "crew_size": 3
+    }
+  },
+  "finishing": {
+    "raised_access_floor": {
+      "unit": "m2/day",
+      "rate": 45,
+      "crew_size": 3
+    },
+    "tiles_flooring": {
+      "unit": "m2/day",
+      "rate": 20,
+      "crew_size": 2
+    },
+    "carpet_tiles": {
+      "unit": "m2/day",
+      "rate": 60,
+      "crew_size": 2
+    },
+    "suspended_ceiling_grid": {
+      "unit": "m2/day",
+      "rate": 40,
+      "crew_size": 3
+    },
+    "gypsum_ceiling": {
+      "unit": "m2/day",
+      "rate": 18,
+      "crew_size": 2
+    },
+    "painting_walls": {
+      "unit": "m2/day",
+      "rate": 80,
+      "crew_size": 2
+    },
+    "wallcovering": {
+      "unit": "m2/day",
+      "rate": 15,
+      "crew_size": 2
+    }
+  },
+  "mep": {
+    "ac_split_unit": {
+      "unit": "nr/day",
+      "rate": 3,
+      "crew_size": 2
+    },
+    "ac_cassette_unit": {
+      "unit": "nr/day",
+      "rate": 2,
+      "crew_size": 3
+    },
+    "electrical_db": {
+      "unit": "nr/day",
+      "rate": 1,
+      "crew_size": 2
+    },
+    "light_fixtures": {
+      "unit": "nr/day",
+      "rate": 15,
+      "crew_size": 2
+    },
+    "data_outlets": {
+      "unit": "nr/day",
+      "rate": 12,
+      "crew_size": 2
+    },
+    "fire_alarm_system": {
+      "unit": "ls/days",
+      "rate": 10,
+      "crew_size": 3
+    },
+    "sprinkler_heads": {
+      "unit": "nr/day",
+      "rate": 20,
+      "crew_size": 2
+    }
+  },
+  "ffe": {
+    "workstations": {
+      "unit": "nr/day",
+      "rate": 8,
+      "crew_size": 3
+    },
+    "executive_desks": {
+      "unit": "nr/day",
+      "rate": 4,
+      "crew_size": 2
+    },
+    "reception_desk": {
+      "unit": "nr/day",
+      "rate": 1,
+      "crew_size": 4
+    },
+    "shelving_display": {
+      "unit": "lm/day",
+      "rate": 6,
+      "crew_size": 2
+    }
+  },
+  "trade_sequence": [
+    "civil_demolition",
+    "civil_partitions",
+    "mep_rough_in",
+    "finishing_ceiling",
+    "finishing_flooring",
+    "finishing_paint",
+    "mep_fit_out",
+    "ffe_installation",
+    "commissioning_snagging"
+  ],
+  "typical_overlap_pct": 20,
+  "mobilization_days": 5,
+  "snagging_days": 7
+}

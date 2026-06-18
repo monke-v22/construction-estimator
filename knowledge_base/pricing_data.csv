@@ -1,0 +1,62 @@
+project_type,trade,category,item,unit,rate_low,rate_high,grade,currency,region,notes
+office_fitout,finishing,flooring,Raised access floor 600x600 150mm,m2,280,380,premium,SAR,KSA,Kingspan/Tate
+office_fitout,finishing,flooring,Porcelain tiles 600x600 rectified,m2,110,165,premium,SAR,KSA,RAK/Porcelanosa
+office_fitout,finishing,flooring,Carpet tiles 500x500,m2,75,120,premium,SAR,KSA,Interface/Shaw
+office_fitout,finishing,flooring,LVT vinyl 4mm,m2,65,95,standard,SAR,KSA,
+office_fitout,finishing,ceiling,Suspended ceiling grid 600x600 Armstrong,m2,110,155,premium,SAR,KSA,
+office_fitout,finishing,ceiling,Linear metal ceiling aluminium blade,m2,320,480,premium,SAR,KSA,
+office_fitout,finishing,ceiling,Gypsum board bulkhead,m2,185,260,standard,SAR,KSA,
+office_fitout,finishing,paint,Emulsion paint 2 coats premium,m2,18,28,premium,SAR,KSA,Jotun Majestic
+office_fitout,finishing,paint,Emulsion paint 2 coats standard,m2,12,18,standard,SAR,KSA,
+office_fitout,finishing,wallcovering,Wallcovering fabric panels,m2,140,220,premium,SAR,KSA,
+office_fitout,civil,partitions,Gypsum board partition 75mm double skin,m2,155,210,standard,SAR,KSA,H=3.0m
+office_fitout,civil,partitions,Glass partition 12mm tempered floor-ceiling,lm,800,1200,premium,SAR,KSA,Aluminium frame
+office_fitout,civil,partitions,Frameless glass door 1200x2400,nr,3800,5500,premium,SAR,KSA,
+office_fitout,civil,partitions,Solid core timber door 900x2100,nr,1800,2800,premium,SAR,KSA,With frame & hardware
+office_fitout,civil,demolition,Strip-out demolition full floor,m2,35,65,standard,SAR,KSA,
+office_fitout,civil,flooring,Concrete floor levelling screed 40mm,m2,45,70,standard,SAR,KSA,
+office_fitout,mep,hvac,Split AC unit 2.5 ton supply+install,nr,2800,3800,premium,SAR,KSA,Daikin/Carrier
+office_fitout,mep,hvac,Split AC unit 1.5 ton supply+install,nr,1800,2500,standard,SAR,KSA,
+office_fitout,mep,hvac,Cassette AC unit 5 ton supply+install,nr,4500,6500,premium,SAR,KSA,
+office_fitout,mep,hvac,Fresh air handling unit 1500CFM,nr,15000,22000,premium,SAR,KSA,
+office_fitout,mep,electrical,Electrical DB board 24-way 63A,nr,2800,4200,standard,SAR,KSA,
+office_fitout,mep,electrical,LED panel light 600x600 40W recessed,nr,150,220,standard,SAR,KSA,
+office_fitout,mep,electrical,Downlight recessed dimmable 12W,nr,75,130,standard,SAR,KSA,
+office_fitout,mep,electrical,Data & voice outlet Cat6 complete,nr,220,320,standard,SAR,KSA,
+office_fitout,mep,fire,Fire alarm addressable system complete,ls,22000,38000,standard,SAR,KSA,NFPA 72
+office_fitout,mep,fire,Sprinkler head modifications per head,nr,150,250,standard,SAR,KSA,
+office_fitout,mep,security,Access control system per door,nr,2200,3500,standard,SAR,KSA,HID/Suprema
+office_fitout,ffe,furniture,Executive desk 2400x1200 with return,nr,4000,6500,premium,SAR,KSA,
+office_fitout,ffe,furniture,Workstation 1400x800 with privacy screen,nr,1500,2200,premium,SAR,KSA,
+office_fitout,ffe,furniture,Executive ergonomic chair,nr,950,1800,premium,SAR,KSA,
+office_fitout,ffe,furniture,Boardroom table 4000x1400 custom,nr,15000,24000,premium,SAR,KSA,
+office_fitout,ffe,furniture,Reception desk custom with stone top,nr,22000,38000,premium,SAR,KSA,
+retail,civil,shopfront,Shopfront frameless glass aluminium,lm,7000,11000,premium,AED,UAE,Per mall guidelines
+retail,finishing,flooring,Polished porcelain 800x800,m2,165,240,premium,AED,UAE,
+retail,finishing,flooring,Engineered hardwood 180mm,m2,320,520,premium,AED,UAE,
+retail,finishing,ceiling,Perforated metal ceiling,m2,380,520,premium,AED,UAE,
+retail,finishing,ceiling,Backlit coffer feature ceiling,m2,720,1100,luxury,AED,UAE,
+retail,finishing,paint,Premium emulsion 3 coats,m2,28,45,premium,AED,UAE,
+retail,finishing,wallcovering,Decorative cladding panels,m2,400,650,premium,AED,UAE,
+retail,mep,hvac,HVAC modifications retail unit complete,ls,70000,120000,standard,AED,UAE,DEWA/Empower compliant
+retail,mep,electrical,Electrical works retail complete,ls,50000,85000,standard,AED,UAE,
+retail,mep,electrical,LED track light rail system,nr,350,550,premium,AED,UAE,
+retail,mep,fire,Fire alarm & sprinkler modifications,ls,18000,32000,standard,AED,UAE,
+retail,ffe,fixtures,Built-in display shelving lacquered MDF,lm,950,1600,premium,AED,UAE,
+retail,ffe,fixtures,Cash wrap cashier counter custom,nr,18000,28000,premium,AED,UAE,
+retail,ffe,furniture,Fitting room furniture & mirror,nr,2800,5000,premium,AED,UAE,
+hospitality,finishing,flooring,Marble flooring 600x600 polished,m2,380,650,luxury,AED,UAE,
+hospitality,finishing,flooring,Engineered wood herringbone pattern,m2,420,680,luxury,AED,UAE,
+hospitality,finishing,ceiling,Feature plaster ceiling ornate,m2,550,950,luxury,AED,UAE,
+hospitality,finishing,ceiling,Mirror / backlit ceiling panels,m2,650,1100,luxury,AED,UAE,
+hospitality,mep,hvac,4-pipe FCU ceiling concealed per room,nr,3500,5500,premium,AED,UAE,
+residential,finishing,flooring,Porcelain tiles 600x600,m2,95,145,standard,SAR,KSA,
+residential,finishing,flooring,Marble tiles 600x600,m2,280,480,premium,SAR,KSA,
+residential,finishing,ceiling,Gypsum board suspended ceiling flat,m2,95,145,standard,SAR,KSA,
+residential,finishing,paint,Emulsion paint 2 coats standard,m2,14,22,standard,SAR,KSA,
+residential,civil,kitchen,Kitchen cabinet supply+install per lm,lm,1800,4500,premium,SAR,KSA,
+residential,mep,hvac,Split AC 1.5 ton residential,nr,1600,2200,standard,SAR,KSA,
+mep_only,mep,hvac,Central AC VRF outdoor unit 10HP,nr,18000,28000,standard,SAR,KSA,
+mep_only,mep,hvac,VRF indoor unit ceiling cassette 2.5kW,nr,2200,3500,standard,SAR,KSA,
+mep_only,mep,plumbing,Plumbing works per m2 fitout,m2,65,110,standard,SAR,KSA,
+mep_only,mep,electrical,Electrical works per m2 fitout,m2,85,145,standard,SAR,KSA,

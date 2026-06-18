@@ -1,0 +1,83 @@
+version: "3.9"
+
+# ============================================================
+# Construction Estimator — Local Development Stack
+# ============================================================
+# Services:
+#   - app       : FastAPI backend (job manager + agent orchestrator)
+#   - ui        : Streamlit frontend (HITL review screens)
+#   - redis     : Job queue + caching
+#
+# ChromaDB runs as a local file store (no container needed).
+# All LLM calls go to AgentRouter (external).
+# ============================================================
+
+services:
+
+  # ── FastAPI Backend ───────────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.app
+    container_name: estimator_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/workspace
+      - ./outputs:/workspace/outputs
+      - ./chroma_db:/workspace/chroma_db
+      - ./logs:/workspace/logs
+      - ./knowledge_base:/workspace/knowledge_base
+    env_file:
+      - .env
+    environment:
+      - PYTHONPATH=/workspace
+    depends_on:
+      - redis
+    restart: unless-stopped
+    command: >
+      uvicorn api.main:app
+      --host 0.0.0.0
+      --port 8000
+      --reload
+      --log-level info
+
+  # ── Streamlit UI (HITL Review Screens) ───────────────────
+  ui:
+    build:
+      context: .
+      dockerfile: Dockerfile.ui
+    container_name: estimator_ui
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/workspace
+      - ./outputs:/workspace/outputs
+    env_file:
+      - .env
+    environment:
+      - PYTHONPATH=/workspace
+      - API_BASE_URL=http://app:8000
+    depends_on:
+      - app
+    restart: unless-stopped
+    command: >
+      streamlit run ui/app.py
+      --server.port 8501
+      --server.address 0.0.0.0
+      --server.headless true
+
+  # ── Redis (job queue + caching) ──────────────────────────
+  redis:
+    image: redis:7-alpine
+    container_name: estimator_redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    command: redis-server --appendonly yes
+
+
+volumes:
+  redis_data:
